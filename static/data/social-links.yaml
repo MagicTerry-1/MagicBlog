@@ -1,0 +1,6 @@
+- name: "GitHub"
+  href: "https://github.com/your-username"
+  icon: "github"
+- name: "Email"
+  href: "mailto:your-email@example.com"
+  icon: "mail"

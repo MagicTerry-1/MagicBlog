@@ -1,0 +1,8 @@
+- name: "Alipay"
+  url: "https://qr.alipay.com/your-alipay-qr-code"
+  color: "#1677FF"
+  icon: "alipay"
+- name: "WeChat Pay"
+  url: "wxp://your-wechat-pay-qr-code"
+  color: "#2DA066"
+  icon: "wechat"

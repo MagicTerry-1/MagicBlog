@@ -1,0 +1,12 @@
+/* 应用样式主入口 */
+@import './fonts.css';
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import './theme.css';
+
+/* 定义暗黑模式下的自定义变体 */
+@custom-variant dark (&:is(.dark *));
+
+@import './base.css';
+@import './components.css';
+@import './utilities.css';

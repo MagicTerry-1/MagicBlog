@@ -1,0 +1,89 @@
+# 友链数据，按状态分组
+
+# 在线站点
+online:
+  # --- 常规示例 ---
+  - name: "示例站点 Alpha"
+    url: "https://example.com/alpha"
+    description: "这是一个标准的示例站点描述。"
+    avatar: "https://ui-avatars.com/api/?name=Alpha&background=random"
+  - name: "示例站点 Beta"
+    url: "https://example.com/beta"
+    description: "热爱生活，热爱编码。"
+    avatar: "https://ui-avatars.com/api/?name=Beta&background=random"
+  - name: "Developer Example"
+    url: "https://example.com/dev"
+    description: "Full stack developer. TypeScript, Rust, Go."
+    avatar: "https://ui-avatars.com/api/?name=Dev&background=0D8ABC&color=fff"
+  - name: "Design Showcase"
+    url: "https://example.com/design"
+    description: "Sharing design resources and inspiration."
+    avatar: "https://ui-avatars.com/api/?name=Design&background=random"
+  - name: "旅行日志"
+    url: "https://example.com/travel"
+    description: "记录在这个世界的足迹。"
+    avatar: "https://ui-avatars.com/api/?name=Travel&background=random"
+
+  # --- 样式测试：长文本边界情况 ---
+  - name: "这是一个名字超级超级超级长的测试站点用来测试标题溢出显示效果是否正常"
+    url: "https://example.com/long-name-test"
+    description: "这是一段非常非常长的描述文本，旨在测试当描述内容超过卡片或列表容器的最大宽度时，是否能够正确地进行截断或换行显示，而不会破坏整体的页面布局结构。Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    avatar: "https://ui-avatars.com/api/?name=Long"
+
+  # --- 样式测试：特殊字符与混合排版 ---
+  - name: "Tech & Art | Future_Lab"
+    url: "https://example.com/tech-art"
+    description: "Coding 💻, Design 🎨, & Life ☕️. Testing symbols: < > / \ | { } [ ]"
+    avatar: "https://ui-avatars.com/api/?name=Tech"
+
+  # --- 样式测试：缺省头像 ---
+  - name: "无头像站点"
+    url: "https://example.com/no-avatar"
+    description: "该站点未配置头像，用于测试默认占位图标的显示效果。"
+    avatar: ""
+
+  # --- 样式测试：缺省描述 ---
+  - name: "无描述站点"
+    url: "https://example.com/no-desc"
+    description: ""
+    avatar: "https://ui-avatars.com/api/?name=ND"
+
+  # --- 压力测试：填充数据（用于测试 Grid/Flex 布局换行）---
+  - name: "Grid Item 1"
+    url: "https://example.com/grid1"
+    description: "Grid layout test item 1."
+    avatar: "https://ui-avatars.com/api/?name=G1"
+  - name: "Grid Item 2"
+    url: "https://example.com/grid2"
+    description: "Grid layout test item 2."
+    avatar: "https://ui-avatars.com/api/?name=G2"
+  - name: "Grid Item 3"
+    url: "https://example.com/grid3"
+    description: "Grid layout test item 3."
+    avatar: "https://ui-avatars.com/api/?name=G3"
+  - name: "Grid Item 4"
+    url: "https://example.com/grid4"
+    description: "Grid layout test item 4."
+    avatar: "https://ui-avatars.com/api/?name=G4"
+
+# 离线/不再维护的站点
+offline:
+  # --- 离线示例 ---
+  - name: "已关停站点 A"
+    url: "https://example.com/offline-a"
+    description: "此站点已无法访问"
+    avatar: "https://ui-avatars.com/api/?name=OffA&background=gray"
+  - name: "已关停站点 B"
+    url: "https://example.com/offline-b"
+    description: "不再维护"
+    avatar: "https://ui-avatars.com/api/?name=OffB&background=gray"
+  - name: "Legacy Blog"
+    url: "https://example.com/legacy"
+    description: ""
+    avatar: ""
+
+  # --- 样式测试：异常状态 ---
+  - name: "404 Not Found"
+    url: "https://example.com/404"
+    description: "域名已过期"
+    avatar: ""

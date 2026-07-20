@@ -1,0 +1,104 @@
+<script lang="ts">
+	/**
+	 * 友链卡片组件
+	 *
+	 * 展示单个友链的卡片，包含头像、名称、描述和链接。
+	 *
+	 * @prop friend - 友链数据对象
+	 * @prop isOnline - 是否在线，控制链接可点击性和状态显示
+	 */
+	import LiquidGlass from '$lib/components/ui/effect/LiquidGlass.svelte';
+	import Avatar from '$lib/components/ui/display/Avatar.svelte';
+	import Marquee from '$lib/components/ui/display/Marquee.svelte';
+	import { t } from '$lib/i18n/store';
+
+	interface Friend {
+		name: string;
+		url: string;
+		description: string;
+		avatar: string;
+	}
+
+	let { friend, isOnline = true }: { friend: Friend; isOnline?: boolean } = $props();
+</script>
+
+<LiquidGlass
+	tilt
+	opaque={true}
+	class="group relative h-full overflow-hidden rounded-2xl p-0 {!isOnline ? 'opacity-60' : ''}"
+>
+	{#if isOnline}
+		<a
+			href={friend.url}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="flex h-full items-center gap-3 p-3"
+		>
+			<Avatar
+				showStatus
+				src={friend.avatar}
+				alt={friend.name}
+				size="md"
+				statusTitle={$t('common.status.online')}
+			/>
+
+			<div class="flex min-w-0 flex-1 flex-col gap-1">
+				<div class="flex items-center gap-2">
+					<div class="min-w-0 flex-1 overflow-hidden">
+						<Marquee
+							text={friend.name}
+							direction="horizontal"
+							class="text-lg font-bold text-foreground transition-colors duration-300 group-hover:text-primary"
+							fadeSize="10%"
+						/>
+					</div>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="size-4 -translate-x-2 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:text-primary group-hover:opacity-100"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+						<polyline points="15 3 21 3 21 9"></polyline>
+						<line x1="10" y1="14" x2="21" y2="3"></line>
+					</svg>
+				</div>
+				<div class="h-[2.5rem] text-sm leading-relaxed text-muted-foreground">
+					<Marquee
+						text={friend.description === '' ? $t('common.none') : friend.description}
+						direction="vertical"
+						class="h-full w-full"
+					/>
+				</div>
+			</div>
+		</a>
+	{:else}
+		<div class="flex h-full cursor-not-allowed items-center gap-3 p-3">
+			<Avatar src={friend.avatar} alt={friend.name} size="md" />
+
+			<div class="flex min-w-0 flex-1 flex-col gap-1">
+				<div class="flex items-center gap-2 overflow-hidden">
+					<div class="min-w-0 flex-1 overflow-hidden">
+						<Marquee
+							text={friend.name}
+							direction="horizontal"
+							class="text-lg font-bold text-foreground/70"
+							fadeSize="10%"
+						/>
+					</div>
+				</div>
+				<div class="h-[2.5rem] text-sm leading-relaxed text-muted-foreground">
+					<Marquee
+						text={friend.description === '' ? $t('common.none') : friend.description}
+						direction="vertical"
+						class="h-full w-full"
+					/>
+				</div>
+			</div>
+		</div>
+	{/if}
+</LiquidGlass>
