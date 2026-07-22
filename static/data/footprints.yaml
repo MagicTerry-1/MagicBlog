@@ -1,44 +1,46 @@
 cities:
-  - id: "110000"
+  - id: "810000"
     name:
-      zh: "北京"
-      en: "Beijing"
+      zh: "香港"
+      en: "Hong Kong"
     coordinates:
-      lng: 116.407526
-      lat: 39.904030
+      lng: 114.169361
+      lat: 22.319304
     type: "city"
-    adcode: "110000"
-    visitDate: "20240315"
-    description: "中国的首都，历史与现代交融的城市。"
+    adcode: "810000"
+    visitDate: "20250501"
+    description: "东方之珠，维港夜景与城市天际线令人难忘。"
     places:
-      - id: "110000-001"
+      - id: "810000-001"
         name:
-          zh: "故宫"
-          en: "Forbidden City"
+          zh: "维多利亚港"
+          en: "Victoria Harbour"
         coordinates:
-          lng: 116.397026
-          lat: 39.918058
+          lng: 114.167790
+          lat: 22.288180
         type: "spot"
-        visitDate: "20240315"
-        description: "明清两代的皇家宫殿，宏伟壮观。"
-      - id: "110000-002"
+        visitDate: "20250501"
+        description: "香港最具代表性的海港景观之一，可以欣赏两岸天际线。"
+      - id: "810000-002"
         name:
-          zh: "天坛"
-          en: "Temple of Heaven"
+          zh: "金紫荆广场"
+          en: "Golden Bauhinia Square"
         coordinates:
-          lng: 116.410886
-          lat: 39.881949
+          lng: 114.170900
+          lat: 22.283900
         type: "spot"
-        visitDate: "20240316"
-      - id: "110000-003"
+        visitDate: "20250501"
+        description: "位于湾仔会展中心外，是香港具有纪念意义的地标广场。"
+      - id: "810000-003"
         name:
-          zh: "颐和园"
-          en: "Summer Palace"
+          zh: "中环"
+          en: "Central"
         coordinates:
-          lng: 116.276632
-          lat: 39.999496
+          lng: 114.158798
+          lat: 22.281913
         type: "spot"
-        visitDate: "20240317"
+        visitDate: "20250501"
+        description: "香港核心商业区，高楼林立，城市感很强。"
 
   - id: "310000"
     name:
@@ -49,8 +51,8 @@ cities:
       lat: 31.230416
     type: "city"
     adcode: "310000"
-    visitDate: "20231001"
-    description: "魔都，外滩的夜景令人沉醉。"
+    visitDate: "20250801"
+    description: "魔都上海，外滩的城市天际线非常经典。"
     places:
       - id: "310000-001"
         name:
@@ -60,47 +62,117 @@ cities:
           lng: 121.490518
           lat: 31.232470
         type: "spot"
-        visitDate: "20231001"
-      - id: "310000-002"
-        name:
-          zh: "东方明珠"
-          en: "Oriental Pearl Tower"
-        coordinates:
-          lng: 121.499809
-          lat: 31.239666
-        type: "spot"
-        visitDate: "20231002"
+        visitDate: "20250801"
+        description: "上海最具代表性的城市景观之一，可以远眺陆家嘴。"
 
-  - id: "440100"
+  - id: "320500"
     name:
-      zh: "广州"
-      en: "Guangzhou"
+      zh: "苏州"
+      en: "Suzhou"
     coordinates:
-      lng: 113.264434
-      lat: 23.129162
+      lng: 120.585316
+      lat: 31.298886
     type: "city"
-    adcode: "440100"
-    visitDate: "20240115"
-    description: "食在广州，早茶文化源远流长。"
+    adcode: "320500"
+    visitDate: "20250723"
+    description: "江南水乡与古典园林之城，温婉而雅致。"
     places:
-      - id: "440100-001"
+      - id: "320500-001"
         name:
-          zh: "广州塔"
-          en: "Canton Tower"
+          zh: "拙政园"
+          en: "Humble Administrator's Garden"
         coordinates:
-          lng: 113.324520
-          lat: 23.106470
+          lng: 120.629782
+          lat: 31.326281
         type: "spot"
-        visitDate: "20240115"
-      - id: "440100-002"
+        visitDate: "20250723"
+        description: "苏州古典园林代表之一，布局精巧，景致清雅。"
+      - id: "320500-002"
         name:
-          zh: "沙面"
-          en: "Shamian Island"
+          zh: "寒山寺"
+          en: "Hanshan Temple"
         coordinates:
-          lng: 113.243576
-          lat: 23.106969
+          lng: 120.574871
+          lat: 31.312890
         type: "spot"
-        visitDate: "20240116"
+        visitDate: "20250723"
+        description: "因《枫桥夜泊》而闻名的古寺，历史气息浓厚。"
+
+  - id: "IDN"
+    name:
+      zh: "印度尼西亚"
+      en: "Indonesia"
+    coordinates:
+      lng: 113.921327
+      lat: -0.789275
+    type: "city"
+    adcode: "IDN"
+    visitDate: "20251001"
+    description: "由众多岛屿组成的热带国度，火山、海岛和海滩景观都很有特色。"
+    places:
+      - id: "IDN-001"
+        name:
+          zh: "Bromo火山"
+          en: "Mount Bromo"
+        coordinates:
+          lng: 112.953889
+          lat: -7.943056
+        type: "spot"
+        visitDate: "20251001"
+        description: "位于东爪哇的著名活火山，日出和火山地貌非常震撼。"
+      - id: "IDN-002"
+        name:
+          zh: "Diamond Beach"
+          en: "Diamond Beach"
+        coordinates:
+          lng: 115.618616
+          lat: -8.776136
+        type: "spot"
+        visitDate: "20251001"
+        description: "位于巴厘岛努沙佩尼达的海滩，以峭壁、白沙和蓝绿色海水闻名。"
+      - id: "IDN-003"
+        name:
+          zh: "巴厘岛国际机场"
+          en: "I Gusti Ngurah Rai International Airport"
+        coordinates:
+          lng: 115.167000
+          lat: -8.748170
+        type: "spot"
+        visitDate: "20251003"
+        description: "巴厘岛主要国际机场，也是进入巴厘岛旅行的重要门户。"
+
+  - id: "420500"
+    name:
+      zh: "宜昌"
+      en: "Yichang"
+    coordinates:
+      lng: 111.286471
+      lat: 30.691967
+    type: "city"
+    adcode: "420500"
+    visitDate: "20200901"
+    description: "长江三峡门户城市，山水壮阔，峡江风光很有代表性。"
+    places:
+      - id: "420500-001"
+        name:
+          zh: "三峡大坝"
+          en: "Three Gorges Dam"
+        coordinates:
+          lng: 111.037958
+          lat: 30.828051
+        type: "spot"
+        visitDate: "20200901"
+        description: "世界知名的水利枢纽工程，气势宏伟。"
+      - id: "420500-002"
+        name:
+          zh: "三峡人家"
+          en: "Tribe of the Three Gorges"
+        coordinates:
+          lng: 111.156941
+          lat: 30.792549
+        type: "spot"
+        visitDate: "20200901"
+        description: "依山傍水的三峡风景区，可以感受峡江人文与自然风光。"
 
   - id: "510100"
     name:
@@ -111,84 +183,97 @@ cities:
       lat: 30.572269
     type: "city"
     adcode: "510100"
-    visitDate: "20230520"
+    visitDate: "20240501"
+    description: "烟火气很浓的巴蜀城市，三国文化与市井生活都很有特色。"
     places:
       - id: "510100-001"
         name:
-          zh: "大熊猫繁育研究基地"
-          en: "Panda Base"
+          zh: "武侯祠"
+          en: "Wuhou Shrine"
         coordinates:
-          lng: 104.146524
-          lat: 30.732565
+          lng: 104.049495
+          lat: 30.644605
         type: "spot"
-        visitDate: "20230520"
+        visitDate: "20240501"
+        description: "成都著名的三国文化地标，纪念刘备、诸葛亮等蜀汉人物。"
       - id: "510100-002"
         name:
           zh: "宽窄巷子"
           en: "Kuanzhai Alley"
         coordinates:
-          lng: 104.053896
-          lat: 30.663175
+          lng: 104.053307
+          lat: 30.663869
         type: "spot"
-        visitDate: "20230521"
+        visitDate: "20240501"
+        description: "成都代表性的历史文化街区，适合慢慢逛。"
 
-  - id: "330100"
+  - id: "SGP"
     name:
-      zh: "杭州"
-      en: "Hangzhou"
+      zh: "新加坡"
+      en: "Singapore"
     coordinates:
-      lng: 120.155070
-      lat: 30.274085
+      lng: 103.819836
+      lat: 1.352083
     type: "city"
-    adcode: "330100"
-    visitDate: "20230405"
-    description: "上有天堂，下有苏杭。"
+    adcode: "SGP"
+    visitDate: "20251005"
+    description: "花园城市，现代、整洁，也是不少东南亚旅行的中转地。"
     places:
-      - id: "330100-001"
+      - id: "SGP-001"
         name:
-          zh: "西湖"
-          en: "West Lake"
+          zh: "樟宜机场"
+          en: "Changi Airport"
         coordinates:
-          lng: 120.147366
-          lat: 30.247192
+          lng: 103.989325
+          lat: 1.359211
         type: "spot"
-        visitDate: "20230405"
-      - id: "330100-002"
-        name:
-          zh: "灵隐寺"
-          en: "Lingyin Temple"
-        coordinates:
-          lng: 120.103730
-          lat: 30.239333
-        type: "spot"
-        visitDate: "20230406"
+        visitDate: "20251005"
+        description: "新加坡重要的国际机场，也是以体验感和景观设计闻名的机场。"
 
-  - id: "610100"
+  - id: "KUL"
     name:
-      zh: "西安"
-      en: "Xi'an"
+      zh: "吉隆坡"
+      en: "Kuala Lumpur"
     coordinates:
-      lng: 108.939840
-      lat: 34.341270
+      lng: 101.686855
+      lat: 3.139003
     type: "city"
-    adcode: "610100"
-    visitDate: "20230910"
+    adcode: "KUL"
+    visitDate: "20251002"
+    description: "马来西亚首都，高楼、清真建筑与多元文化交织。"
     places:
-      - id: "610100-001"
+      - id: "KUL-001"
         name:
-          zh: "秦始皇兵马俑"
-          en: "Terracotta Warriors"
+          zh: "吉隆坡石油双塔"
+          en: "Petronas Twin Towers"
         coordinates:
-          lng: 109.278553
-          lat: 34.384784
+          lng: 101.711667
+          lat: 3.157778
         type: "spot"
-        visitDate: "20230910"
-      - id: "610100-002"
-        name:
-          zh: "大雁塔"
-          en: "Giant Wild Goose Pagoda"
-        coordinates:
-          lng: 108.963486
-          lat: 34.220138
-        type: "spot"
-        visitDate: "20230911"
+        visitDate: "20251002"
+        description: "吉隆坡最具代表性的地标建筑之一，也是马来西亚的经典城市名片。"
+  - id: "330900"
+    name:
+      zh: "舟山"
+      en: "Zhoushan"
+    coordinates:
+      lng: 122.207216
+      lat: 29.985295
+    type: "city"
+    adcode: "330900"
+    visitDate: "20260423"
+    description: "浙江东部的海岛城市，群岛风光与海滨气息很有特色。"
+    places: []
+
+  - id: "350100"
+    name:
+      zh: "福州"
+      en: "Fuzhou"
+    coordinates:
+      lng: 119.296494
+      lat: 26.074507
+    type: "city"
+    adcode: "350100"
+    visitDate: "20260712"
+    description: "福建省会城市，有榕城之称，兼具历史街巷与山水气息。"
+    places: []

@@ -1,12 +1,12 @@
 <script lang="ts">
 	/**
-	 * GitHub 项目展示组件
+	 * Gitee 项目展示组件
 	 *
-	 * 通过 GitHub API 动态获取并展示置顶 (Pinned) 或最近更新的开源项目。
+	 * 通过 Gitee API 动态获取并展示最近更新的开源项目。
 	 * 支持自动加载状态、骨架屏占位及响应式网格布局。
 	 */
 	import { onMount } from 'svelte';
-	import { Github, Star, GitFork, ArrowRight } from 'lucide-svelte';
+	import { GitBranch, Star, GitFork, ArrowRight } from 'lucide-svelte';
 	import SectionHeader from '$lib/components/home/content/common/SectionHeader.svelte';
 	import ContentCard from '$lib/components/home/content/common/ContentCard.svelte';
 
@@ -28,64 +28,72 @@
 		updatedAt: string;
 	}
 
-	/** GitHub 用户名，从环境变量读取 */
-	const GITHUB_USERNAME = import.meta.env.VITE_GITHUB_USERNAME;
+	function getGiteeUsername() {
+		const configuredUsername = import.meta.env.VITE_GITEE_USERNAME as string | undefined;
+		if (configuredUsername) return configuredUsername;
+
+		const repoUrl = import.meta.env.VITE_REPO_URL as string | undefined;
+		if (!repoUrl) return '';
+
+		try {
+			const parsedUrl = new URL(repoUrl);
+			const segments = parsedUrl.pathname.split('/').filter(Boolean);
+			if (segments[0] && parsedUrl.hostname.includes('gitee')) {
+				return segments[0];
+			}
+		} catch {
+			// 忽略无效 URL
+		}
+
+		return '';
+	}
+
+	/** Gitee 用户名，从环境变量或仓库地址自动解析 */
+	const GITEE_USERNAME = getGiteeUsername();
 
 	let githubData = $state<GithubRepo[]>([]);
 	let loadingGithub = $state(true);
 
 	/**
-	 * 获取 GitHub 仓库数据
-	 * 优先尝试获取 Pinned (置顶) 项目，如果失败或为空，则回退到获取最近更新的项目。
+	 * 获取 Gitee 仓库数据
+	 * 直接从 Gitee API 获取最近更新的项目。
 	 */
 	async function fetchGithubData() {
 		try {
-			// 1. 尝试获取 Pinned 项目 (通过第三方 API)
-			// 注意：官方 API 获取 Pinned 需要 GraphQL 和 Token，这里使用第三方开源服务无需 Token
+			if (!GITEE_USERNAME) {
+				throw new Error('未配置 Gitee 用户名');
+			}
+
 			const data = await loadJson<any[]>(
-				`https://gh-pinned-repos-tsj7ta5xfhep.deno.dev/?username=${GITHUB_USERNAME}`
+				`https://gitee.com/api/v5/users/${GITEE_USERNAME}/repos?sort=updated&direction=desc&per_page=6`
 			);
 
 			if (Array.isArray(data) && data.length > 0) {
 				githubData = data.map((repo: any) => ({
-					name: repo.repo,
-					description: repo.description,
-					stars: Number(repo.stars) || 0,
-					forks: Number(repo.forks) || 0,
-					watchers: 0, // 置顶 API 不返回关注者数量
-					language: repo.language,
-					url: repo.link,
-					updatedAt: '' // 置顶 API 不返回更新时间
+					name: repo.name,
+					description: repo.description || 'No description provided.',
+					stars: Number(repo.stargazers_count) || 0,
+					forks: Number(repo.forks_count) || 0,
+					watchers: Number(repo.watchers_count) || 0,
+					language: repo.language || 'Code',
+					url: repo.html_url || `https://gitee.com/${GITEE_USERNAME}/${repo.name}`,
+					updatedAt: repo.updated_at || ''
 				}));
-				return; // 成功获取置顶项目，直接返回
+				return;
 			}
 
-			// 2. 如果 Pinned 获取失败或为空，回退到原来的逻辑 (最近更新)
-			const fallbackData = await loadJson<any[]>(
-				`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=6`
-			);
-			githubData = fallbackData.map((repo: any) => ({
-				name: repo.name,
-				description: repo.description,
-				stars: repo.stargazers_count,
-				forks: repo.forks_count,
-				watchers: repo.watchers_count,
-				language: repo.language,
-				url: repo.html_url,
-				updatedAt: repo.updated_at
-			}));
+			throw new Error('Gitee 返回空仓库列表');
 		} catch (e) {
-			console.error('获取 GitHub 数据失败', e);
-			// API 请求失败时使用备用数据
+			console.error('获取 Gitee 数据失败', e);
 			githubData = [
 				{
 					name: 'LoadError',
-					description: 'Failed to load GitHub data, maybe rate limited',
+					description: 'Failed to load Gitee data',
 					stars: 114,
 					forks: 514,
 					watchers: 1919810,
 					language: 'LoadError',
-					url: `https://github.com/${GITHUB_USERNAME}/fuyao-homepage`,
+					url: `https://gitee.com/${GITEE_USERNAME || 'gitee'}`,
 					updatedAt: new Date().toISOString()
 				}
 			];
@@ -183,7 +191,7 @@
 
 <div class="pt-4">
 	<SectionHeader
-		icon={Github}
+		icon={GitBranch}
 		iconBgColor="bg-purple-500/20"
 		iconColor="text-purple-400"
 		titleKey="home.hero.github.title"

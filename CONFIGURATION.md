@@ -18,7 +18,8 @@
 | 变量名                 | 说明                                  | 示例                |
 | :--------------------- | :------------------------------------ | :------------------ |
 | `VITE_GITHUB_USERNAME` | GitHub 用户名                         | `skyrocketinghong`  |
-| `VITE_AVATAR_URL`      | 用户头像 URL (留空则使用 GitHub 头像) |                     |
+| `VITE_GITEE_USERNAME` | Gitee 用户名 (用于获取头像及 Gitee 项目数据) | `shi-pandong` |
+| `VITE_AVATAR_URL`      | 用户头像 URL (留空则使用 Gitee 头像，未配置则回退到 GitHub 头像) |                     |
 | `VITE_USER_ROLE_ZH`    | 站长角色/职业 (中文)                  | `软件工程师`        |
 | `VITE_USER_ROLE_EN`    | 站长角色/职业 (英文)                  | `Software Engineer` |
 | `VITE_USER_QUOTE_ZH`   | 站长个性签名 (中文)                   | `你的座右铭`        |
