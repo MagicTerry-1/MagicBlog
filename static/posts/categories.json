@@ -8,15 +8,15 @@
     "title": "这是一段充满了无意义文本的超长测试示例分类 📂"
   },
   {
-    "slug": "life",
-    "title": "这是一段充满了无意义文本的超长测试生活分类 🌿"
+    "slug": "intership-category",
+    "title": "这是存放本人实习内容及收获的部分📂"
   },
   {
-    "slug": "reading",
-    "title": "这是一段充满了无意义文本的超长测试阅读分类 📚"
+    "slug": "travelrecord-category",
+    "title": "这是存放旅游内容及的部分📂"
   },
   {
-    "slug": "tech",
-    "title": "这是一段充满了无意义文本的超长测试技术分类 💻"
+    "slug": "workexperience-category",
+    "title": "这是存放工作经验的部分📂"
   }
 ]
