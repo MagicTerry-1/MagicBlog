@@ -27,10 +27,6 @@
 - **功能**: 国际化支持 (i18n)、动态特效、响应式设计、足迹地图
 - **自动部署**: 博文上传/删除自动索引，同步生成 RSS 与 Sitemap
 
-## 项目结构
-
-详情参阅 [PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md)。更新记录查看 [CHANGELOG.md](./CHANGELOG.md)
-
 ## 开发指南
 
 项目依赖 Node.js 环境
