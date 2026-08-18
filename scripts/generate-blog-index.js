@@ -13,7 +13,10 @@ import matter from 'gray-matter';
 function loadEnv() {
 	// 根据环境决定加载哪个文件
 	const isDev = process.env.NODE_ENV === 'development';
-	const envFile = isDev ? '.env.dev' : '.env';
+	const preferredEnvFile = isDev ? '.env.dev' : '.env';
+	const envFile = fs.existsSync(path.join(process.cwd(), preferredEnvFile))
+		? preferredEnvFile
+		: '.env';
 	const envPath = path.join(process.cwd(), envFile);
 
 	if (fs.existsSync(envPath)) {

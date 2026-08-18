@@ -7,8 +7,7 @@ lastmod: 2026-07-23T14:00:00.000Z
 status: publish
 author: "师"
 categories:
-  - "intership"
-  - "learning"
+  - "workexperience-category"
 tags:
   - "feelings"
   - "experience"

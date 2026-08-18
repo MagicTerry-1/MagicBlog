@@ -19,6 +19,12 @@ export interface BasePlace {
 	visitDate?: string;
 	/** 地点描述 */
 	description?: string;
+	/** 弹窗展示图片 URL */
+	image?: string;
+	/** 弹窗展示图片 URL 列表 */
+	images?: string[];
+	/** 弹窗展示图片替代文本 */
+	imageAlt?: string;
 	/** 当前语言的显示名称 (加载时生成) */
 	title?: string;
 	/** 坐标元组 [lng, lat] (加载时生成) */

@@ -20,6 +20,11 @@ cities:
           lat: 22.288180
         type: "spot"
         visitDate: "20250501"
+        images:
+          - "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?q=80&w=1200&auto=format&fit=crop"
+          - "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop"
+          - "https://images.unsplash.com/photo-1518593922090-653d7fdfcdcc?q=80&w=1200&auto=format&fit=crop"
+        imageAlt: "Victoria Harbour skyline"
         description: "香港最具代表性的海港景观之一，可以欣赏两岸天际线。"
       - id: "810000-002"
         name:

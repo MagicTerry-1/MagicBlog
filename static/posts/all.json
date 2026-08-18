@@ -1,110 +1,18 @@
 [
   {
-    "title": "产品实习生（2025.9-2026.2）",
+    "title": "售前实习生（2026.4-2026.8）",
     "date": "2026-07-23T14:00:00.000Z",
-    "file": "intership-category\\first-tuojie-product.md",
-    "slug": "first intership",
+    "file": "intership-category\\jiean.md",
+    "slug": "intership",
     "categories": [
-      "intership-category",
-      "intership",
-      "tech"
+      "intership-category"
     ],
     "tags": [
       "feelings",
       "experience"
     ],
     "lastmod": "2026-07-23T14:00:00.000Z",
-    "description": "第一份实习经历。",
-    "cover": "https://picsum.photos/seed/code/800/400"
-  },
-  {
-    "title": "标书制作经验",
-    "date": "2026-07-23T14:00:00.000Z",
-    "file": "travelrecord-category\\hk.md",
-    "slug": "first intership",
-    "categories": [
-      "travelrecord-category",
-      "intership",
-      "learning"
-    ],
-    "tags": [
-      "feelings",
-      "experience"
-    ],
-    "lastmod": "2026-07-23T14:00:00.000Z",
-    "description": "这是售前实习积累的标书编写经验。",
-    "cover": "https://picsum.photos/seed/code/800/400"
-  },
-  {
-    "title": "标书制作经验",
-    "date": "2026-07-23T14:00:00.000Z",
-    "file": "travelrecord-category\\indonesia.md",
-    "slug": "first intership",
-    "categories": [
-      "travelrecord-category",
-      "intership",
-      "learning"
-    ],
-    "tags": [
-      "feelings",
-      "experience"
-    ],
-    "lastmod": "2026-07-23T14:00:00.000Z",
-    "description": "这是售前实习积累的标书编写经验。",
-    "cover": "https://picsum.photos/seed/code/800/400"
-  },
-  {
-    "title": "标书制作经验",
-    "date": "2026-07-23T14:00:00.000Z",
-    "file": "travelrecord-category\\nanjing.md",
-    "slug": "first intership",
-    "categories": [
-      "travelrecord-category",
-      "intership",
-      "learning"
-    ],
-    "tags": [
-      "feelings",
-      "experience"
-    ],
-    "lastmod": "2026-07-23T14:00:00.000Z",
-    "description": "这是售前实习积累的标书编写经验。",
-    "cover": "https://picsum.photos/seed/code/800/400"
-  },
-  {
-    "title": "标书制作经验",
-    "date": "2026-07-23T14:00:00.000Z",
-    "file": "travelrecord-category\\suzhou.md",
-    "slug": "first intership",
-    "categories": [
-      "travelrecord-category",
-      "intership",
-      "learning"
-    ],
-    "tags": [
-      "feelings",
-      "experience"
-    ],
-    "lastmod": "2026-07-23T14:00:00.000Z",
-    "description": "这是售前实习积累的标书编写经验。",
-    "cover": "https://picsum.photos/seed/code/800/400"
-  },
-  {
-    "title": "标书制作经验",
-    "date": "2026-07-23T14:00:00.000Z",
-    "file": "travelrecord-category\\yangzhou.md",
-    "slug": "first intership",
-    "categories": [
-      "travelrecord-category",
-      "intership",
-      "learning"
-    ],
-    "tags": [
-      "feelings",
-      "experience"
-    ],
-    "lastmod": "2026-07-23T14:00:00.000Z",
-    "description": "这是售前实习积累的标书编写经验。",
+    "description": "售前实习。",
     "cover": "https://picsum.photos/seed/code/800/400"
   },
   {
@@ -113,9 +21,7 @@
     "file": "workexperience-category\\biaoshu.md",
     "slug": "first intership",
     "categories": [
-      "workexperience-category",
-      "intership",
-      "learning"
+      "workexperience-category"
     ],
     "tags": [
       "feelings",
@@ -131,9 +37,7 @@
     "file": "workexperience-category\\seeksupplier.md",
     "slug": "first intership",
     "categories": [
-      "workexperience-category",
-      "intership",
-      "communication"
+      "workexperience-category"
     ],
     "tags": [
       "experience"
@@ -148,9 +52,7 @@
     "file": "workexperience-category\\teamwork.md",
     "slug": "first intership",
     "categories": [
-      "workexperience-category",
-      "intership",
-      "cooperation"
+      "workexperience-category"
     ],
     "tags": [
       "experience"
@@ -160,52 +62,111 @@
     "cover": "https://picsum.photos/seed/code/800/400"
   },
   {
-    "title": "字体渲染全能测试 (Multi-language & Symbols Test)",
-    "date": "2026-02-10T11:30:00.000Z",
-    "file": "example-category\\font-test.md",
-    "slug": "font-test",
+    "title": "苏州旅游",
+    "date": "2026-05-05T14:00:00.000Z",
+    "file": "travelrecord-category\\suzhou.md",
+    "slug": "travel",
     "categories": [
-      "example-category"
+      "travelrecord-category"
     ],
     "tags": [
-      "测试",
-      "字体",
-      "Typography"
+      "travel"
     ],
-    "lastmod": "2026-02-10T11:30:00.000Z",
-    "description": "这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。"
-  },
-  {
-    "title": "代码高亮与媒体展示 (Code & Media)",
-    "date": "2026-02-03T14:00:00.000Z",
-    "file": "example-category\\code-and-media.md",
-    "slug": "code-and-media-test",
-    "categories": [
-      "example-category",
-      "tech"
-    ],
-    "tags": [
-      "Code",
-      "Images",
-      "Videos"
-    ],
-    "lastmod": "2026-02-03T14:00:00.000Z",
-    "description": "全面测试各种编程语言的语法高亮显示效果，以及图片、视频等媒体资源的嵌入表现。",
+    "lastmod": "2026-07-23T14:00:00.000Z",
+    "description": "苏州旅游。",
     "cover": "https://picsum.photos/seed/code/800/400"
   },
   {
-    "title": "这是一篇示例文章",
-    "date": "2026-01-31T16:00:00.000Z",
-    "file": "example-category\\example-article.md",
-    "slug": "example-article",
+    "title": "25年国庆出国旅游记录",
+    "date": "2025-10-01T14:00:00.000Z",
+    "file": "travelrecord-category\\abroad2025.md",
+    "slug": "travel",
     "categories": [
-      "example-category"
+      "travelrecord-category"
     ],
     "tags": [
-      "示例"
+      "travel",
+      "experience"
     ],
-    "lastmod": "2026-01-31T16:00:00.000Z",
-    "description": "这是一篇用于演示目录结构和文章格式的示例文章。",
-    "cover": "https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&w=1600&auto=format&fit=crop"
+    "lastmod": "2026-07-23T14:00:00.000Z",
+    "description": "出国旅游，经过马来西亚、新加坡、印度尼西亚。",
+    "cover": "https://picsum.photos/seed/code/800/400"
+  },
+  {
+    "title": "产品实习生（2025.9-2026.2）",
+    "date": "2025-09-01T14:00:00.000Z",
+    "file": "intership-category\\first-tuojie-product copy.md",
+    "slug": "first intership",
+    "categories": [
+      "intership-category"
+    ],
+    "tags": [
+      "feelings",
+      "experience"
+    ],
+    "lastmod": "2026-07-23T14:00:00.000Z",
+    "description": "第一份实习经历。",
+    "cover": "https://picsum.photos/seed/code/800/400"
+  },
+  {
+    "title": "南京旅游",
+    "date": "2024-07-05T14:00:00.000Z",
+    "file": "travelrecord-category\\nanjing.md",
+    "slug": "travel",
+    "categories": [
+      "travelrecord-category"
+    ],
+    "tags": [
+      "travel"
+    ],
+    "lastmod": "2026-07-23T14:00:00.000Z",
+    "description": "24年大夏天在钟山风景区。",
+    "cover": "https://picsum.photos/seed/code/800/400"
+  },
+  {
+    "title": "扬州旅游",
+    "date": "2024-06-23T14:00:00.000Z",
+    "file": "travelrecord-category\\yangzhou.md",
+    "slug": "first intership",
+    "categories": [
+      "travelrecord-category"
+    ],
+    "tags": [
+      "travel"
+    ],
+    "lastmod": "2026-07-23T14:00:00.000Z",
+    "description": "扬州旅游。",
+    "cover": "https://picsum.photos/seed/code/800/400"
+  },
+  {
+    "title": "香港旅游",
+    "date": "2024-05-01T14:00:00.000Z",
+    "file": "travelrecord-category\\hk.md",
+    "slug": "travel",
+    "categories": [
+      "travelrecord-category"
+    ],
+    "tags": [
+      "travel",
+      "experience"
+    ],
+    "lastmod": "2026-07-23T14:00:00.000Z",
+    "description": "香港旅游记录。",
+    "cover": "https://picsum.photos/seed/code/800/400"
+  },
+  {
+    "title": "成都旅游",
+    "date": "2023-05-06T14:00:00.000Z",
+    "file": "travelrecord-category\\chengdu.md",
+    "slug": "travel",
+    "categories": [
+      "travelrecord-category"
+    ],
+    "tags": [
+      "travel"
+    ],
+    "lastmod": "2026-07-23T14:00:00.000Z",
+    "description": "成都旅游。",
+    "cover": "https://picsum.photos/seed/code/800/400"
   }
 ]

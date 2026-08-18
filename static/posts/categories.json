@@ -4,19 +4,15 @@
     "title": "All"
   },
   {
-    "slug": "example-category",
-    "title": "这是一段充满了无意义文本的超长测试示例分类 📂"
-  },
-  {
     "slug": "intership-category",
-    "title": "这是存放本人实习内容及收获的部分📂"
+    "title": "实习及收获📂"
   },
   {
     "slug": "travelrecord-category",
-    "title": "这是存放旅游内容及的部分📂"
+    "title": "旅游内容📂"
   },
   {
     "slug": "workexperience-category",
-    "title": "这是存放工作经验的部分📂"
+    "title": "工作经验📂"
   }
 ]

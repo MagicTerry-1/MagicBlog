@@ -1,4 +1,5 @@
-import { Home, BookOpen, MapPin, CreditCard, Users } from 'lucide-svelte';
+import { Home, BookOpen, MapPin, Users } from 'lucide-svelte';
+// import { CreditCard } from 'lucide-svelte';
 
 /**
  * 导航项接口定义
@@ -88,16 +89,16 @@ export const navItems: NavItem[] = [
 		hasSidebarList: true,
 		backgroundMode: 'mosaic'
 	},
-	{
-		i18nKey: 'nav.pay',
-		href: '/pay/',
-		icon: CreditCard,
-		seo: {
-			description: `${seoConfig.author}的赞赏支持，如果您觉得我的内容对您有帮助，欢迎赞赏支持。`,
-			keywords: ['赞赏', '捐赠', '支持']
-		},
-		backgroundMode: 'mosaic'
-	},
+	// {
+	// 	i18nKey: 'nav.pay',
+	// 	href: '/pay/',
+	// 	icon: CreditCard,
+	// 	seo: {
+	// 		description: `${seoConfig.author}的赞赏支持，如果您觉得我的内容对您有帮助，欢迎赞赏支持。`,
+	// 		keywords: ['赞赏', '捐赠', '支持']
+	// 	},
+	// 	backgroundMode: 'mosaic'
+	// },
 	{
 		i18nKey: 'nav.friends',
 		href: '/friends/',

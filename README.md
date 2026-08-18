@@ -1,10 +1,10 @@
-# Fuyao Homepage
+# Terry Homepage
 
 基于 SvelteKit 构建的现代个人主页与博客系统。采用 Svelte 5、Tailwind CSS 和 TypeScript 开发
 
 ## 目录
 
-- [Fuyao Homepage](#fuyao-homepage)
+- [Terry Homepage](#terry-homepage)
   - [目录](#目录)
   - [特性](#特性)
   - [项目结构](#项目结构)
@@ -124,6 +124,5 @@ systemctl enable --now blog-watcher.service
 
 参考的开源项目：
 
-- [imyan.ren](https://github.com/Yanren1225/imyan.ren): 部分样式参考
-- [hongkong-mtr-mosaic](https://github.com/sayidhe/hongkong-mtr-mosaic): 港铁马赛克特效参考
-- [MTR-Sung](https://github.com/wobebebe/MTR-Sung): 港铁字体参考
+- [FuyaoHomepage](https://github.com/skyrocketingHong/FuyaoHomepage): 博客项目
+

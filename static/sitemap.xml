@@ -2,27 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://github.com/MagicTerry-1/home/</loc>
-        <lastmod>2026-07-24T06:01:04.801Z</lastmod>
+        <lastmod>2026-08-13T06:14:06.814Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://github.com/MagicTerry-1/blog/</loc>
-        <lastmod>2026-07-24T06:01:04.801Z</lastmod>
+        <lastmod>2026-08-13T06:14:06.814Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://github.com/MagicTerry-1/pay/</loc>
-        <lastmod>2026-07-24T06:01:04.801Z</lastmod>
+        <lastmod>2026-08-13T06:14:06.814Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://github.com/MagicTerry-1/friends/</loc>
-        <lastmod>2026-07-24T06:01:04.801Z</lastmod>
+        <lastmod>2026-08-13T06:14:06.814Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://github.com/MagicTerry-1/blog/intership-category/intership/</loc>
+        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://github.com/MagicTerry-1/blog/workexperience-category/first intership/</loc>
+        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://github.com/MagicTerry-1/blog/workexperience-category/first intership/</loc>
+        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://github.com/MagicTerry-1/blog/workexperience-category/first intership/</loc>
+        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</loc>
+        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</loc>
+        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
     </url>
     <url>
         <loc>https://github.com/MagicTerry-1/blog/intership-category/first intership/</loc>
@@ -31,13 +67,7 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://github.com/MagicTerry-1/blog/intership/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/tech/first intership/</loc>
+        <loc>https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</loc>
         <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -49,164 +79,14 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://github.com/MagicTerry-1/blog/intership/first intership/</loc>
+        <loc>https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</loc>
         <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://github.com/MagicTerry-1/blog/learning/first intership/</loc>
+        <loc>https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</loc>
         <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/intership/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/learning/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/intership/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/learning/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/intership/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/learning/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/intership/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/learning/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/workexperience-category/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/intership/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/learning/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/workexperience-category/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/intership/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/communication/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/workexperience-category/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/intership/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/cooperation/first intership/</loc>
-        <lastmod>Thu Jul 23 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/example-category/font-test/</loc>
-        <lastmod>Tue Feb 10 2026 19:30:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/example-category/code-and-media-test/</loc>
-        <lastmod>Tue Feb 03 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/tech/code-and-media-test/</loc>
-        <lastmod>Tue Feb 03 2026 22:00:00 GMT+0800 (中国标准时间)</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://github.com/MagicTerry-1/blog/example-category/example-article/</loc>
-        <lastmod>Sun Feb 01 2026 00:00:00 GMT+0800 (中国标准时间)</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>

@@ -5,67 +5,15 @@
         <link>https://github.com/MagicTerry-1</link>
         <description>Homepage 演示版本</description>
         <language>zh-CN</language>
-        <lastBuildDate>Fri, 24 Jul 2026 06:01:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 06:14:06 GMT</lastBuildDate>
         <atom:link href="https://github.com/MagicTerry-1/blog/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
-        <title>产品实习生（2025.9-2026.2）</title>
-        <link>https://github.com/MagicTerry-1/blog/intership-category/first intership/</link>
-        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/intership-category/first intership/</guid>
+        <title>售前实习生（2026.4-2026.8）</title>
+        <link>https://github.com/MagicTerry-1/blog/intership-category/intership/</link>
+        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/intership-category/intership/</guid>
         <pubDate>Thu, 23 Jul 2026 14:00:00 GMT</pubDate>
-        <description>第一份实习经历。</description>
+        <description>售前实习。</description>
         <category>intership-category</category>
-        <category>intership</category>
-        <category>tech</category>
-    </item>
-    <item>
-        <title>标书制作经验</title>
-        <link>https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</link>
-        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</guid>
-        <pubDate>Thu, 23 Jul 2026 14:00:00 GMT</pubDate>
-        <description>这是售前实习积累的标书编写经验。</description>
-        <category>travelrecord-category</category>
-        <category>intership</category>
-        <category>learning</category>
-    </item>
-    <item>
-        <title>标书制作经验</title>
-        <link>https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</link>
-        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</guid>
-        <pubDate>Thu, 23 Jul 2026 14:00:00 GMT</pubDate>
-        <description>这是售前实习积累的标书编写经验。</description>
-        <category>travelrecord-category</category>
-        <category>intership</category>
-        <category>learning</category>
-    </item>
-    <item>
-        <title>标书制作经验</title>
-        <link>https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</link>
-        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</guid>
-        <pubDate>Thu, 23 Jul 2026 14:00:00 GMT</pubDate>
-        <description>这是售前实习积累的标书编写经验。</description>
-        <category>travelrecord-category</category>
-        <category>intership</category>
-        <category>learning</category>
-    </item>
-    <item>
-        <title>标书制作经验</title>
-        <link>https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</link>
-        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</guid>
-        <pubDate>Thu, 23 Jul 2026 14:00:00 GMT</pubDate>
-        <description>这是售前实习积累的标书编写经验。</description>
-        <category>travelrecord-category</category>
-        <category>intership</category>
-        <category>learning</category>
-    </item>
-    <item>
-        <title>标书制作经验</title>
-        <link>https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</link>
-        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</guid>
-        <pubDate>Thu, 23 Jul 2026 14:00:00 GMT</pubDate>
-        <description>这是售前实习积累的标书编写经验。</description>
-        <category>travelrecord-category</category>
-        <category>intership</category>
-        <category>learning</category>
     </item>
     <item>
         <title>标书制作经验</title>
@@ -74,8 +22,6 @@
         <pubDate>Thu, 23 Jul 2026 14:00:00 GMT</pubDate>
         <description>这是售前实习积累的标书编写经验。</description>
         <category>workexperience-category</category>
-        <category>intership</category>
-        <category>learning</category>
     </item>
     <item>
         <title>寻找产品供应商</title>
@@ -84,8 +30,6 @@
         <pubDate>Thu, 23 Jul 2026 14:00:00 GMT</pubDate>
         <description>这是咨询产品供应商相关技巧。</description>
         <category>workexperience-category</category>
-        <category>intership</category>
-        <category>communication</category>
     </item>
     <item>
         <title>团队协作</title>
@@ -94,33 +38,62 @@
         <pubDate>Thu, 23 Jul 2026 14:00:00 GMT</pubDate>
         <description>这是团队协作相关内容。</description>
         <category>workexperience-category</category>
-        <category>intership</category>
-        <category>cooperation</category>
     </item>
     <item>
-        <title>字体渲染全能测试 (Multi-language &amp; Symbols Test)</title>
-        <link>https://github.com/MagicTerry-1/blog/example-category/font-test/</link>
-        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/example-category/font-test/</guid>
-        <pubDate>Tue, 10 Feb 2026 11:30:00 GMT</pubDate>
-        <description>这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。这是一篇包含多种语言、文字、生僻字、UTF 编码符号的测试文档，用于全面检测字体的展示效果。</description>
-        <category>example-category</category>
+        <title>苏州旅游</title>
+        <link>https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</link>
+        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</guid>
+        <pubDate>Tue, 05 May 2026 14:00:00 GMT</pubDate>
+        <description>苏州旅游。</description>
+        <category>travelrecord-category</category>
     </item>
     <item>
-        <title>代码高亮与媒体展示 (Code &amp; Media)</title>
-        <link>https://github.com/MagicTerry-1/blog/example-category/code-and-media-test/</link>
-        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/example-category/code-and-media-test/</guid>
-        <pubDate>Tue, 03 Feb 2026 14:00:00 GMT</pubDate>
-        <description>全面测试各种编程语言的语法高亮显示效果，以及图片、视频等媒体资源的嵌入表现。</description>
-        <category>example-category</category>
-        <category>tech</category>
+        <title>25年国庆出国旅游记录</title>
+        <link>https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</link>
+        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</guid>
+        <pubDate>Wed, 01 Oct 2025 14:00:00 GMT</pubDate>
+        <description>出国旅游，经过马来西亚、新加坡、印度尼西亚。</description>
+        <category>travelrecord-category</category>
     </item>
     <item>
-        <title>这是一篇示例文章</title>
-        <link>https://github.com/MagicTerry-1/blog/example-category/example-article/</link>
-        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/example-category/example-article/</guid>
-        <pubDate>Sat, 31 Jan 2026 16:00:00 GMT</pubDate>
-        <description>这是一篇用于演示目录结构和文章格式的示例文章。</description>
-        <category>example-category</category>
+        <title>产品实习生（2025.9-2026.2）</title>
+        <link>https://github.com/MagicTerry-1/blog/intership-category/first intership/</link>
+        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/intership-category/first intership/</guid>
+        <pubDate>Mon, 01 Sep 2025 14:00:00 GMT</pubDate>
+        <description>第一份实习经历。</description>
+        <category>intership-category</category>
+    </item>
+    <item>
+        <title>南京旅游</title>
+        <link>https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</link>
+        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</guid>
+        <pubDate>Fri, 05 Jul 2024 14:00:00 GMT</pubDate>
+        <description>24年大夏天在钟山风景区。</description>
+        <category>travelrecord-category</category>
+    </item>
+    <item>
+        <title>扬州旅游</title>
+        <link>https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</link>
+        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/travelrecord-category/first intership/</guid>
+        <pubDate>Sun, 23 Jun 2024 14:00:00 GMT</pubDate>
+        <description>扬州旅游。</description>
+        <category>travelrecord-category</category>
+    </item>
+    <item>
+        <title>香港旅游</title>
+        <link>https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</link>
+        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</guid>
+        <pubDate>Wed, 01 May 2024 14:00:00 GMT</pubDate>
+        <description>香港旅游记录。</description>
+        <category>travelrecord-category</category>
+    </item>
+    <item>
+        <title>成都旅游</title>
+        <link>https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</link>
+        <guid isPermaLink="true">https://github.com/MagicTerry-1/blog/travelrecord-category/travel/</guid>
+        <pubDate>Sat, 06 May 2023 14:00:00 GMT</pubDate>
+        <description>成都旅游。</description>
+        <category>travelrecord-category</category>
     </item>
     </channel>
 </rss>
