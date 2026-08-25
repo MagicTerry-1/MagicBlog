@@ -59,8 +59,8 @@
 				"subtitle": "网站已运行"
 			},
 			"github": {
-				"title": "Gitee 项目",
-				"loading": "正在从 Gitee 获取数据...",
+				"title": "GitHub 项目",
+				"loading": "正在从 GitHub 获取数据...",
 				"no_description": "暂无描述。",
 				"language_default": "代码"
 			},

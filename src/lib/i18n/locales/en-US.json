@@ -59,8 +59,8 @@
 				"subtitle": "Site running for"
 			},
 			"github": {
-				"title": "Gitee Projects",
-				"loading": "Getting data from Gitee...",
+				"title": "GitHub Projects",
+				"loading": "Getting data from GitHub...",
 				"no_description": "No description provided.",
 				"language_default": "Code"
 			},

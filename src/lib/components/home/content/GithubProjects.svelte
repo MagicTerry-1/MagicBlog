@@ -1,8 +1,8 @@
 <script lang="ts">
 	/**
-	 * Gitee 项目展示组件
+	 * GitHub 项目展示组件
 	 *
-	 * 通过 Gitee API 动态获取并展示最近更新的开源项目。
+	 * 通过 GitHub API 动态获取并展示最近更新的开源项目。
 	 * 支持自动加载状态、骨架屏占位及响应式网格布局。
 	 */
 	import { onMount } from 'svelte';
@@ -28,8 +28,8 @@
 		updatedAt: string;
 	}
 
-	function getGiteeUsername() {
-		const configuredUsername = import.meta.env.VITE_GITEE_USERNAME as string | undefined;
+	function getGithubUsername() {
+		const configuredUsername = import.meta.env.VITE_GITHUB_USERNAME as string | undefined;
 		if (configuredUsername) return configuredUsername;
 
 		const repoUrl = import.meta.env.VITE_REPO_URL as string | undefined;
@@ -38,7 +38,7 @@
 		try {
 			const parsedUrl = new URL(repoUrl);
 			const segments = parsedUrl.pathname.split('/').filter(Boolean);
-			if (segments[0] && parsedUrl.hostname.includes('gitee')) {
+			if (segments[0] && parsedUrl.hostname.includes('github')) {
 				return segments[0];
 			}
 		} catch {
@@ -48,24 +48,24 @@
 		return '';
 	}
 
-	/** Gitee 用户名，从环境变量或仓库地址自动解析 */
-	const GITEE_USERNAME = getGiteeUsername();
+	/** GitHub 用户名，从环境变量或仓库地址自动解析 */
+	const GITHUB_USERNAME = getGithubUsername();
 
 	let githubData = $state<GithubRepo[]>([]);
 	let loadingGithub = $state(true);
 
 	/**
-	 * 获取 Gitee 仓库数据
-	 * 直接从 Gitee API 获取最近更新的项目。
+	 * 获取 GitHub 仓库数据
+	 * 直接从 GitHub API 获取最近更新的项目。
 	 */
 	async function fetchGithubData() {
 		try {
-			if (!GITEE_USERNAME) {
-				throw new Error('未配置 Gitee 用户名');
+			if (!GITHUB_USERNAME) {
+				throw new Error('未配置 GitHub 用户名');
 			}
 
 			const data = await loadJson<any[]>(
-				`https://gitee.com/api/v5/users/${GITEE_USERNAME}/repos?sort=updated&direction=desc&per_page=6`
+				`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&direction=desc&per_page=6&type=owner`
 			);
 
 			if (Array.isArray(data) && data.length > 0) {
@@ -73,27 +73,27 @@
 					name: repo.name,
 					description: repo.description || 'No description provided.',
 					stars: Number(repo.stargazers_count) || 0,
-					forks: Number(repo.forks_count) || 0,
+					forks: Number(repo.forks_count ?? repo.forks) || 0,
 					watchers: Number(repo.watchers_count) || 0,
 					language: repo.language || 'Code',
-					url: repo.html_url || `https://gitee.com/${GITEE_USERNAME}/${repo.name}`,
+					url: repo.html_url || `https://github.com/${GITHUB_USERNAME}/${repo.name}`,
 					updatedAt: repo.updated_at || ''
 				}));
 				return;
 			}
 
-			throw new Error('Gitee 返回空仓库列表');
+			throw new Error('GitHub 返回空仓库列表');
 		} catch (e) {
-			console.error('获取 Gitee 数据失败', e);
+			console.error('获取 GitHub 数据失败', e);
 			githubData = [
 				{
 					name: 'LoadError',
-					description: 'Failed to load Gitee data',
+					description: 'Failed to load GitHub data',
 					stars: 114,
 					forks: 514,
 					watchers: 1919810,
 					language: 'LoadError',
-					url: `https://gitee.com/${GITEE_USERNAME || 'gitee'}`,
+					url: `https://github.com/${GITHUB_USERNAME || 'github'}`,
 					updatedAt: new Date().toISOString()
 				}
 			];

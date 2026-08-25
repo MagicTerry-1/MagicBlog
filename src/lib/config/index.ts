@@ -114,13 +114,11 @@ export const navItems: NavItem[] = [
 /**
  * 获取头像 URL
  *
- * 优先使用环境变量配置的 URL，其次使用 Gitee 头像，最后回退到 GitHub 头像。
+ * 优先使用环境变量配置的 URL，其次回退到 GitHub 头像。
  */
 export function getAvatarUrl(): string {
 	const customAvatar = import.meta.env.VITE_AVATAR_URL;
 	if (customAvatar) return customAvatar;
-	const giteeUsername = import.meta.env.VITE_GITEE_USERNAME;
-	if (giteeUsername) return `https://gitee.com/${giteeUsername}.png`;
 	const githubUsername = import.meta.env.VITE_GITHUB_USERNAME;
 	return githubUsername ? `https://github.com/${githubUsername}.png` : '';
 }
